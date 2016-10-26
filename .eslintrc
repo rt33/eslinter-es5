@@ -1,6 +1,6 @@
 {
-  "extends": "airbnb-base",
-    "globals": {
+"extends": "airbnb-base/legacy",
+"globals": {
     "$": true,
     "jQuery": true
   }
