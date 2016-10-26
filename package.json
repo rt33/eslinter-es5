@@ -7,7 +7,9 @@
     "eslint-config-airbnb-base": "^9.0.0",
     "eslint-plugin-import": "^2.0.1",
     "fixpack": "^2.3.1",
-    "npm-check": "^5.4.0"
+    "jscs": "^3.0.7",
+    "npm-check": "^5.4.0",
+    "npm-run-all": "^3.1.1"
   },
   "license": "WTFPL",
   "main": "index.js",
@@ -17,7 +19,9 @@
   },
   "scripts": {
     "check": "npm-check -u",
-    "eslint": "eslint src/**/*",
+    "lint": "npm-run-all lint:*",
+    "lint:eslint": "eslint src/**/*",
+    "lint:jscs": "jscs src/ -f -x",
     "fixpack": "fixpack"
   }
 }
