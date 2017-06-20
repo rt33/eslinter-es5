@@ -15,7 +15,7 @@ src配下にjsファイルを配置
 
 ## Step.3
 ```
-$ npm run lint
+$ yarn run lint
 ```
 
 ## Step.4
