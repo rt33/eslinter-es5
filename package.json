@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "rt33 <rt33@lastcycle.com>",
   "devDependencies": {
-    "eslint": "^3.8.1",
+    "eslint": "3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-import": "^2.3.0",

@@ -9,4 +9,3 @@ var hage = [
 
 console.log(hoge)
 console.log(hage)
-
