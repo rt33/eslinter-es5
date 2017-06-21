@@ -4,22 +4,15 @@
   "author": "rt33 <rt33@lastcycle.com>",
   "devDependencies": {
     "eslint": "^3.8.1",
-    "eslint-config-airbnb-base": "^9.0.0",
-    "eslint-plugin-import": "^2.0.1",
-    "fixpack": "^2.3.1",
-    "jscs": "^3.0.7",
-    "npm-run-all": "^3.1.1"
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-dependencies": "^2.4.0",
+    "eslint-plugin-import": "^2.3.0",
+    "fixpack": "^2.3.1"
   },
   "license": "WTFPL",
-  "main": "index.js",
-  "repository": {
-    "url": "https://github.com/rt33/eslinter.git",
-    "type": "git"
-  },
   "scripts": {
-    "lint": "npm-run-all lint:*",
-    "lint:eslint": "eslint src/**/*",
-    "lint:jscs": "jscs src/ -f -x",
+    "lint": "eslint src/**/*",
+    "fix": "eslint src/**/*.js --fix",
     "fixpack": "fixpack"
   }
 }
